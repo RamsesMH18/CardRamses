@@ -1,0 +1,29 @@
+/* Primera forma de mandar poner estilos */
+/* Etiqueta */
+body {
+    background-color: rgb(35, 246, 28);
+}
+
+/* Segunda forma para dar estilo */
+/* Clase */
+
+.links {
+    background-color: rgb(62, 119, 169);
+    color: white;
+}
+
+a {
+    background-color: rgb(89, 255, 255);
+    font-size: 50;
+    font-weight: 700;
+}
+
+
+
+/* Tercera forma de dar estilo */
+/* ID */
+
+#SendButton {
+    background-color: rgb(163, 21, 21);
+    color: white;
+}
