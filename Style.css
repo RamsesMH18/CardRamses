@@ -16,15 +16,21 @@ body {
 .mensaje {
     background-color: white;
     border-radius: 30px;
-    border: 5px solid white;
-    height: 50px;
-    width: 200px;
+    border: 2px solid rgb(4, 185, 142);
+    position: relative;
+    display: block;
+    width: 50%;
+    margin: 10 auto;
+    left: 25%;
 }
 
 
 .links {
+    position: relative;
+    display: inline;
+    top: 5px;
+    left: 42%;
     text-align: center;
-    background-color: rgb(62, 119, 169);
     color: rgb(255, 255, 255);
 }
 
@@ -40,15 +46,19 @@ a {
 /* ID */
 .botones {
     text-align: center;
+    position: relative;
+    width: 100%;
+    top: 10px;
+
 }
 #SendButton {
-    background-color: rgb(163, 21, 21);
+    background-color: rgb(4, 185, 142);
     color: white;
 }
 
 .imagen {
     border-radius: 100px;
-    border: 10px solid rgb(255, 255, 255);
+    border: 10px solid rgb(4, 185, 142);
     display: block;
     margin: 0 auto;
 }
