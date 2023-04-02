@@ -1,15 +1,31 @@
 /* Primera forma de mandar poner estilos */
 /* Etiqueta */
 body {
-    background-color: rgb(35, 246, 28);
+    background-image: url(fondo.jpeg);
+    background-size: cover;
 }
 
 /* Segunda forma para dar estilo */
 /* Clase */
 
+.informacion {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.mensaje {
+    background-color: white;
+    border-radius: 30px;
+    border: 5px solid white;
+    height: 50px;
+    width: 200px;
+}
+
+
 .links {
+    text-align: center;
     background-color: rgb(62, 119, 169);
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 a {
@@ -22,8 +38,17 @@ a {
 
 /* Tercera forma de dar estilo */
 /* ID */
-
+.botones {
+    text-align: center;
+}
 #SendButton {
     background-color: rgb(163, 21, 21);
     color: white;
+}
+
+.imagen {
+    border-radius: 100px;
+    border: 10px solid rgb(255, 255, 255);
+    display: block;
+    margin: 0 auto;
 }
